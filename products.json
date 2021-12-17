@@ -1,0 +1,196 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Canon EOS 80D",
+          "description": "Digital SLR Kit with EF-S 18-55mm Lens",
+          "model": "ID-10135678",
+          "price": 520,
+          "category": "cameras",
+          "brand": "sony",
+          "image": { "fields": { "file": { "url": "/img/photo.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Rocky Mountain",
+          "description": "2K GPS FPV Camera Drone with backpack",
+          "model": "ID-10168935",
+          "price": 340,
+          "category": "drones",
+          "brand": "sony",
+          "image": { "fields": { "file": { "url": "/img/dron.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Multiroom 360",
+          "description": "Wireless Headset V5.0 with Deep Bass",
+          "model": "ID-10186083",
+          "price": 280,
+          "category": "headphones",
+          "brand": "bosh",
+          "image": { "fields": { "file": { "url": "/img/multiroom360.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "MacBook Air",
+          "description": "Apple M1 Chip, 13” Retina Display, 8GB RAM, 512GB SSD",
+          "model": "ID-10129574",
+          "price": 600,
+          "category": "laptops",
+          "brand": "apple",
+          "image": { "fields": { "file": { "url": "/img/macbook.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Sony Dualsense",
+          "description": "Light & Slim PS4 System, 1TB Hard Drive",
+          "model": "ID-10159237",
+          "price": 300,
+          "category": "games",
+          "brand": "sony",
+          "image": { "fields": { "file": { "url": "/img/ps4.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Dynaudio Speaker",
+          "description": "Double Subwoofer Heavy Bass, Bluetooth 5.0 Wireless",
+          "model": "ID-10157294",
+          "price": 330,
+          "category": "audio",
+          "brand": "samsung",
+          "image": { "fields": { "file": { "url": "/img/speaker1.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Gore Wear C7",
+          "description": "3D Glasses Virtual Reality Headset for VR Games",
+          "model": "ID-101219305",
+          "price": 250,
+          "category": "vr",
+          "brand": "lg",
+          "image": { "fields": { "file": { "url": "/img/virtualS.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Apple Watch 6",
+          "description": "Apple Watch Series 6 (GPS, 44MM)",
+          "model": "ID-10119438",
+          "price": 360,
+          "category": "watches",
+          "brand": "apple",
+          "image": { "fields": { "file": { "url": "/img/applewatch.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "9" },
+        "fields": {
+          "title": "Speaker LFG34",
+          "description": "Bose SoundLink Flex Bluetooth Portable Speaker",
+          "model": "ID-10195739",
+          "price": 350,
+          "category": "audio",
+          "brand": "lg",
+          "image": { "fields": { "file": { "url": "/img/speaker2.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "10" },
+        "fields": {
+          "title": "3060RTX Asus",
+          "description": "ASUS TUF Gaming NVIDIA GeForce RTX 3060 OC Edition",
+          "model": "ID-10195739",
+          "price": 380,
+          "category": "graphic",
+          "brand": "asus",
+          "image": { "fields": { "file": { "url": "/img/cooler.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "11" },
+        "fields": {
+          "title": "Headphone TRX",
+          "description": "Lightweight Long-Cord Headphones",
+          "model": "ID-10159602",
+          "price": 320,
+          "category": "headphones",
+          "brand": "xiaomi",
+          "image": { "fields": { "file": { "url": "/img/headphone3.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "12" },
+        "fields": {
+          "title": "Iphone 12 5G",
+          "description": "Apple iPhone 12 5G, 128GB, 12MP TruDepth Front Camera",
+          "model": "ID-10159302",
+          "price": 470,
+          "category": "smartphones",
+          "brand": "apple",
+          "image": { "fields": { "file": { "url": "/img/iphone.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "13" },
+        "fields": {
+          "title": "Sony PS5 Console",
+          "description": "Slim, 1TB Hard Drive, All the Greatest Games",
+          "model": "ID-10196045",
+          "price": 450,
+          "category": "games",
+          "brand": "sony",
+          "image": { "fields": { "file": { "url": "/img/ps5.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "14" },
+        "fields": {
+          "title": "Sonance MAG",
+          "description": "Bluetooth Portable Speaker, 100 Foot Wireless Range",
+          "model": "ID-10139504",
+          "price": 280,
+          "category": "audio",
+          "brand": "samsung",
+          "image": { "fields": { "file": { "url": "/img/speaker3.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "15" },
+        "fields": {
+          "title": "Oculus Quest2",
+          "description": "Oculus Quest All-in-one VR Gaming Headset – 128GB",
+          "model": "ID-10159403",
+          "price": 275,
+          "category": "vr",
+          "brand": "lg",
+          "image": { "fields": { "file": { "url": "/img/vr.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "16" },
+        "fields": {
+          "title": "Apple Watch SE",
+          "description": "Smartwatch with Heart Rate Monitor, Sleep Monitor",
+          "model": "ID-10140394",
+          "price": 385,
+          "category": "watches",
+          "brand": "apple",
+          "image": { "fields": { "file": { "url": "/img/watchse.jpg" } } }
+        }
+      }
+    ]
+  }
