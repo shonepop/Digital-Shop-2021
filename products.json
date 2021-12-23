@@ -9,7 +9,7 @@
           "price": 520,
           "category": "cameras",
           "brand": "sony",
-          "image": { "fields": { "file": { "url": "/img/photo.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/photo.jpg" } } }
         }
       },
       {
@@ -21,7 +21,7 @@
           "price": 340,
           "category": "drones",
           "brand": "sony",
-          "image": { "fields": { "file": { "url": "/img/dron.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/dron.jpg" } } }
         }
       },
       {
@@ -33,7 +33,7 @@
           "price": 280,
           "category": "headphones",
           "brand": "bosh",
-          "image": { "fields": { "file": { "url": "/img/multiroom360.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/multiroom360.jpg" } } }
         }
       },
       {
@@ -45,7 +45,7 @@
           "price": 600,
           "category": "laptops",
           "brand": "apple",
-          "image": { "fields": { "file": { "url": "/img/macbook.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/macbook.jpg" } } }
         }
       },
       {
@@ -57,7 +57,7 @@
           "price": 300,
           "category": "games",
           "brand": "sony",
-          "image": { "fields": { "file": { "url": "/img/ps4.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/ps4.jpg" } } }
         }
       },
       {
@@ -69,7 +69,7 @@
           "price": 330,
           "category": "audio",
           "brand": "samsung",
-          "image": { "fields": { "file": { "url": "/img/speaker1.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/speaker1.jpg" } } }
         }
       },
       {
@@ -81,7 +81,7 @@
           "price": 250,
           "category": "vr",
           "brand": "lg",
-          "image": { "fields": { "file": { "url": "/img/virtualS.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/virtualS.jpg" } } }
         }
       },
       {
@@ -93,7 +93,7 @@
           "price": 360,
           "category": "watches",
           "brand": "apple",
-          "image": { "fields": { "file": { "url": "/img/applewatch.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/applewatch.jpg" } } }
         }
       },
       {
@@ -105,7 +105,7 @@
           "price": 350,
           "category": "audio",
           "brand": "lg",
-          "image": { "fields": { "file": { "url": "/img/speaker2.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/speaker2.jpg" } } }
         }
       },
       {
@@ -117,7 +117,7 @@
           "price": 380,
           "category": "graphic",
           "brand": "asus",
-          "image": { "fields": { "file": { "url": "/img/cooler.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/cooler.jpg" } } }
         }
       },
       {
@@ -129,7 +129,7 @@
           "price": 320,
           "category": "headphones",
           "brand": "xiaomi",
-          "image": { "fields": { "file": { "url": "/img/headphone3.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/headphone3.jpg" } } }
         }
       },
       {
@@ -141,7 +141,7 @@
           "price": 470,
           "category": "smartphones",
           "brand": "apple",
-          "image": { "fields": { "file": { "url": "/img/iphone.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/iphone.jpg" } } }
         }
       },
       {
@@ -153,7 +153,7 @@
           "price": 450,
           "category": "games",
           "brand": "sony",
-          "image": { "fields": { "file": { "url": "/img/ps5.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/ps5.jpg" } } }
         }
       },
       {
@@ -165,7 +165,7 @@
           "price": 280,
           "category": "audio",
           "brand": "samsung",
-          "image": { "fields": { "file": { "url": "/img/speaker3.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/speaker3.jpg" } } }
         }
       },
       {
@@ -177,7 +177,7 @@
           "price": 275,
           "category": "vr",
           "brand": "lg",
-          "image": { "fields": { "file": { "url": "/img/vr.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/vr.jpg" } } }
         }
       },
       {
@@ -189,7 +189,7 @@
           "price": 385,
           "category": "watches",
           "brand": "apple",
-          "image": { "fields": { "file": { "url": "/img/watchse.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/watchse.jpg" } } }
         }
       }
     ]
