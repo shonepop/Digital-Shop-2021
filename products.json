@@ -21,7 +21,7 @@
           "price": 340,
           "category": "drones",
           "brand": "sony",
-          "image": { "fields": { "file": { "url": "/img/dron.jpg" } } }
+          "image": { "fields": { "file": { "url": "./img/dron.jpg" } } }
         }
       },
       {
