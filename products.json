@@ -9,7 +9,7 @@
           "price": 520,
           "category": "cameras",
           "brand": "sony",
-          "image": { "fields": { "file": { "url": "/img/photo.jpg" } } }
+          "image": { "fields": { "file": { "url": "img/photo.jpg" } } }
         }
       },
       {
