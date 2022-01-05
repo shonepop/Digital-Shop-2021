@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="font/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Digital Shop 2021</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <section class="navigation__topbar">
+            <div class="navigation__container navigation__container--topbar">
+                <div class="navigation__description">
+                    <img class="navigation__description-icon" src="img/svg/topbar.svg" alt="">
+                    <span class="navigation__description-text">World's Fastest Online Shopping Destination</span>
+                </div>
+                <div class="navigation__phone">
+                    <img class="navigation__phone-icon" src="img/svg/phone-icon.svg" alt="">
+                    <span class="navigation__phone-text">088-888-888</span>
+                </div>
+                <div class="navigation__email">
+                    <img class="navigation__email-icon" src="img/svg/email-icon.svg" alt="">
+                    <span class="navigation__email-text">info@yourdomain.com</span>
+                </div>
+            </div>
+        </section>
+        <section class="navigation__menu">
+            <div class="navigation__container navigation__container--menu">
+                <div class="navigation__logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="index.html">Home</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="about.html">About</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="shop.html">Shop</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="contact.html">Contact</a></li>
+                </ul>
+
+                <div class="navigation__login">
+                    <a href="#" class="navigation__login-link">
+                        <img class="navigation__login-icon" src="img/svg/login-icon.svg" alt="">
+                        <span class="navigation__login-span">Login</span>
+                    </a>
+                </div>
+                <div class="navigation__cart">
+                    <div class="navigation__cart-shopping-list">
+                        <a href="##" class="navigation__cart-link">
+                            <img class="navigation__cart-icon" src="img/svg/shopping-cart.svg" alt="">
+                            <span class="navigation__cart-span">Cart</span>
+                            <span class="navigation__cart-items">(0)</span>
+                        </a>
+                    </div>
+                    <div class="navigation__cart-view">
+                        <div class="navigation__cart-view-basket">
+                            <span class="navigation__cart-view-close"><i class="fas fa-times"></i></span>
+                            <div class="navigation__cartBasket"></div>
+                        </div>
+                        <div class="navigation__cart-view-total">
+                            <span class="navigation__cart-view-text">Shopping Cart</span>
+                            <span class="navigation__cart-view-subtotal">0</span>
+                        </div>
+                        <div class="navigation__cart-view-btn">
+                            <a href="cart.html" class="navigation__cart-viewBtn">View Cart</a>
+                            <a href="checkout.html" class="navigation__cart-checkoutBtn">Checkout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="navigation__sidebarBtn">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </section>
+    </nav>
+
+    <!-- Main -->
+    <main class="shop">
+        <section class="shop__body">
+            <section class="shop__filter">
+                <div class="shop__filter-category">
+                    <div class="shop__filter-heading">Category</div>
+                    <div>
+                        <input type="checkbox" name="All" id="all" checked>
+                        <label for="all">All</label>
+                        <span class="shop__filter-count">(16)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Accessories" id="vr">
+                        <label for="vr">VR Headset</label>
+                        <span class="shop__filter-count">(2)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Drones" id="drones">
+                        <label for="drones">Drones</label>
+                        <span class="shop__filter-count">(1)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Cameras" id="cameras">
+                        <label for="cameras">Cameras</label>
+                        <span class="shop__filter-count">(1)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Audio" id="audio">
+                        <label for="audio">Audio</label>
+                        <span class="shop__filter-count">(3)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="games" id="games">
+                        <label for="games">Video Games</label>
+                        <span class="shop__filter-count">(2)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Headphones" id="headphones">
+                        <label for="headphones">Headphones</label>
+                        <span class="shop__filter-count">(2)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Laptops" id="laptops">
+                        <label for="laptops">Laptops</label>
+                        <span class="shop__filter-count">(1)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Graphic Cards" id="graphic">
+                        <label for="graphic">Graphic Cards</label>
+                        <span class="shop__filter-count">(1)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Smartphones" id="smartphones">
+                        <label for="smartphones">Smartphones</label>
+                        <span class="shop__filter-count">(1)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Watches & Eyewear" id="watches">
+                        <label for="watches">Watches & Eyewear</label>
+                        <span class="shop__filter-count">(2)</span>
+                    </div>
+                </div>
+                <div class="shop__filter-brand">
+                    <div class="shop__filter-heading">Brand</div>
+                    <div>
+                        <input type="checkbox" name="Apple" id="apple">
+                        <label for="apple">Apple</label>
+                        <span class="shop__filter-count">(4)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Asus" id="asus">
+                        <label for="asus">Asus</label>
+                        <span class="shop__filter-count">(1)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="LG" id="lg">
+                        <label for="lg">LG</label>
+                        <span class="shop__filter-count">(3)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Samsung" id="samsung">
+                        <label for="samsung">Samsung</label>
+                        <span class="shop__filter-count">(2)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Sony" id="sony">
+                        <label for="sony">Sony</label>
+                        <span class="shop__filter-count">(4)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Xiaomi" id="xiaomi">
+                        <label for="xiaomi">Xiaomi</label>
+                        <span class="shop__filter-count">(1)</span>
+                    </div>
+                </div>
+                <div class="shop__filter-range">
+                    <div class="shop__filter-heading">Choose price</div>
+                    <div class="shop__filter-sliders">
+                        <input type="range" min="250" max="1000" value="400" class="shop__filter-slider1" id="range1">
+                        <input type="range" min="250" max="1000" value="600" class="shop__filter-slider2" id="range2">
+                    </div>
+                    <div class="shop__filter-rangeMinMax">
+                        <span class="shop__filter-range-start">$250</span>
+                        <span class="shop__filter-range-end">$1000</span>
+                    </div>
+                    <div class="shop__filter-btn">
+                        <a role="button" class="shop__filter-priceBtn">Filter</a>
+                    </div>
+                </div>
+            </section>
+            <section class="shop__products">
+                <div class="shop__products-header">
+                    <div class="shop__products-heading">Featured Products</div>
+                    <div class="shop__products-sort">
+                        <a class="shop__sort-btn">Sort By: <span class="shop__sort-checked">Default</span> <i
+                                class="fas fa-chevron-down"></i></a>
+                        <div class="shop__products-sort-options">
+                            <div>
+                                <label for="default">Default</label>
+                                <input type="checkbox" name="Default" id="default">
+                            </div>
+                            <div>
+                                <label for="popularity">Popularity</label>
+                                <input type="checkbox" name="Popularity" id="popularity">
+                            </div>
+                            <div>
+                                <label for="rating">Rating</label>
+                                <input type="checkbox" name="Rating" id="rating">
+                            </div>
+                            <div>
+                                <label for="newness">Newness</label>
+                                <input type="checkbox" name="Newness" id="newness">
+                            </div>
+                            <div>
+                                <label for="lowprice">Low Price</label>
+                                <input type="checkbox" name="Low Price" id="lowprice">
+                            </div>
+                            <div>
+                                <label for="highprice">High Price</label>
+                                <input type="checkbox" name="High Price" id="highprice">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop__products-body">
+
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- Side navigation -->
+    <aside class="sidebar">
+        <section class="sidebar__body">
+            <div class="sidebar__btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul class="sidebar__menu">
+                <li class="sidebar__list-item"><a href="index.html" class="sidebar__link">Home</a></li>
+                <li class="sidebar__list-item"><a class="sidebar__link" href="about.html">About</a></li>
+                <li class="sidebar__list-item"><a class="sidebar__link" href="shop.html">Shop</a></li>
+                <li class="sidebar__list-item"><a class="sidebar__link" href="#">Blog</a></li>
+                <li class="sidebar__list-item"><a class="sidebar__link" href="contact.html">Contact</a></li>
+            </ul>
+        </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <section class="footer__container">
+            <section class="footer__body">
+                <div class="footer__logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="footer__links">
+                    <span class="footer__heading">Visit Link</span>
+                    <a class="footer__link" href="#">Shop</a>
+                    <a class="footer__link" href="#">Privacy</a>
+                    <a class="footer__link" href="#">Terms and Conditions</a>
+                </div>
+                <div class="footer__contact">
+                    <span class="footer__heading">Contact</span>
+                    <a href="#" class="footer__link">+99 (0) 101 0000 888</a>
+                    <a href="#" class="footer__link">info@yourdomain.com</a>
+                </div>
+                <div class="footer__company">
+                    <span class="footer__heading">Company</span>
+                    <a class="footer__link" href="#">Home</a>
+                    <a class="footer__link" href="#">About Us</a>
+                    <a class="footer__link" href="#">Contact Us</a>
+                </div>
+                <div class="footer__address">
+                    <span class="footer__heading">Address</span>
+                    <span class="footer__location">Patricia Amedee 4401 Waldeck Street Grapevine Nashville, Tx
+                        76051</span>
+                </div>
+            </section>
+            <section class="footer__bottom">
+                <span class="footer__copyright">© 2021 Digital Shop. All rights reserved.</span>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-github"></i></a>
+                </div>
+            </section>
+        </section>
+    </footer>
+    <script src="cart.js"></script>
+    <script src="shop.js"></script>
+</body>
+
+</html>
